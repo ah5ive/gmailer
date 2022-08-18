@@ -1,0 +1,33 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "description": "node express with gmail api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ah5ive/nodemailer.git"
+  },
+  "author": "jason wkf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ah5ive/nodemailer/issues"
+  },
+  "homepage": "https://github.com/ah5ive/nodemailer#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "googleapis": "^105.0.0",
+    "nodemailer": "^6.7.8",
+    "node": "^16.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
